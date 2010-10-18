@@ -1,0 +1,14 @@
+Zend Webinar Simplecloud
+========================
+
+Example application which is used in the free German Zend Webinar
+"Einmal schreiben, in jeder Cloud deployen - Einblick in Simple Cloud".
+Applicatio is based on Zend Framework 1.10 (framework.zend.com) and
+Simple Cloud API 1.0.0a1 (simplecloud.org) and demonstrates how to 
+use Amazon S3 and Amazon SQS.
+Find more information about the webinar and the recording here:
+http://www.zend.com/de/resources/webinars/
+ 
+Authors
+-------
+- Jan Burkl
