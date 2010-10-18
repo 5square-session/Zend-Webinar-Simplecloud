@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+.searchResultHeader {
+	margin-bottom: 5px;
+}
+
+.searchResultHeader a {
+	color: #000;
+	text-decoration: none;
+}
+
+.searchResultHeader a:hover {
+	text-decoration: underline;
+}
+
+.searchResultIntro {
+	color: #333;
+}

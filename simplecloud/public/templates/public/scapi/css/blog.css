@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.editPageLink {
+		// background: url(http://d28w1rs7bvxm9v.cloudfront.net/page_white_edit.png) no-repeat;
+}
+
+.deletePageLink {
+		// background: url(http://d28w1rs7bvxm9v.cloudfront.net/cross.png) no-repeat;
+}
+
+.postDate {
+	float: right;
+	color: #666;
+	margin: 0;
+	font-style: italic;
+}
+
+.postHeader {
+	margin-bottom: 5px;
+}
+
+.postHeader a {
+	color: #000;
+	text-decoration: none;
+}
+
+.postHeader a:hover {
+	text-decoration: underline;
+}
+
+.postIntro {
+	color: #333;
+}
+
+.commentHeader {
+		// background: url(http://d28w1rs7bvxm9v.cloudfront.net/comment.png) no-repeat 0 5px;
+}
+
+.commentBy {
+	color: #666;
+	font-style: italic;
+	margin-bottom: 10px;
+}

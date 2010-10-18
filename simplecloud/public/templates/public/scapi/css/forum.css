@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+.createForumLink {
+		/*background: url(http://d28w1rs7bvxm9v.cloudfront.net/folder_add.png) no-repeat;*/
+}
+
+.editForumLink {
+		/*background: url(http://d28w1rs7bvxm9v.cloudfront.net/folder_edit.png) no-repeat;*/
+}
+
+.openForumLink {
+		/*background: url(http://d28w1rs7bvxm9v.cloudfront.net/folder_go.png) no-repeat;*/
+}
+
+.forumListItem {
+	margin-bottom: 10px;
+}
+
+.forumListItem.even {
+	background: #e9e9e9;
+}
+
+.forumListItem.odd {
+	background: #e3e3e3;
+}
+
+.forumListItem.even .forumIntro {
+	background: #eaeaea;
+}
+
+.forumListItem.odd .forumIntro {
+	background: #e5e5e5;
+}
+
+.forumHeader {
+	margin-bottom: 0;
+	border-bottom: #fff 1px solid;
+}
+
+.forumHeader a {
+	display:block;
+	padding: 5px 10px;
+	color: #000;
+	text-decoration: none;
+}
+
+.forumHeader a:hover {
+	background:#ccc;
+}
+
+p.forumIntro {
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	border-bottom: #fff 1px solid;
+}
+
+.forumIntro {
+	color: #333;
+}
+
+.forumDetails h4 {
+	margin-bottom: 5px;
+	padding: 0 10px;
+}
+
+.forumDetails ul {
+	padding: 0 0 0 10px;
+}
+
+h3.topicHeader{
+	margin-bottom:5px;
+}
+
+.topicBy {
+	color: #666;
+	font-style: italic;
+	margin-bottom: 5px;
+}

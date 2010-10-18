@@ -1,0 +1,23 @@
+<table class="compat-table">
+	<thead>
+		<tr>
+			<td class="compat-table-header">FileName</td>
+			<td class="compat-table-header">&nbsp;</td>
+			<td class="compat-table-header">&nbsp;</td>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach ($this->logos as $logoName => $logoBinary) : ?>
+	        <tr>
+	            <td style="padding: 10px; vertical-align: top;"><?php echo $logoName ?></td>
+	            <td style="padding: 10px;"><img src="data:image/gif;base64,<?php echo $logoBinary ?>" /></td>
+	            <td style="padding: 10px; vertical-align: top;"><a href="/storage/delete/itemname/<?php echo $logoName ?>">Delete</a></td>
+	        </tr>
+        <?php endforeach; ?>
+        <tr>
+        	<td rowspan="3" style="padding: 10px;">
+        		<?php echo $this->form ?>
+       		</td>
+       	</tr>
+	</tbody>
+</table>

@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+#sitemap ul ul{
+	padding:5px 0 5px 50px;
+}
+
+#sitemap ul.navigation, #sitemap ul.navigation li{
+float:none;	
+}
+
+#sitemap ul.navigation li a {
+
+}
+
+#sitemap ul.navigation li a {
+	color: #20729f;
+}
+
+#sitemap ul.navigation li ul li a {
+	font-weight:normal;
+	color: #000;
+}

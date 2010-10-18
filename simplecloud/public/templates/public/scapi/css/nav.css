@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+ul.navigation{
+list-style:none;
+padding: 0px;
+float: right;
+margin: 2px 0px 0px 0px;
+}
+
+#navigationWrapper {
+    height: 44px;
+}
+
+ul.navigation li{
+float: left;
+margin: 20px 15px 0px 0px;
+padding:0;
+}
+
+ul.navigation li a{
+text-decoration:none;
+font-size:20px;
+color:#fff;
+font-weight:bold;
+}
+
+#sidebar {
+    height: 100%;
+}
+
+#sidebar ul.navigation{
+	float:none;
+	
+}
+#sidebar ul.navigation li{
+	float:none;
+	
+}
+#sidebar ul.navigation li a{
+	font-size:24px;
+	float:none;
+	color:#333;
+}
+#sidebar ul.navigation ul{
+	list-style:none;
+	padding:5px 0 5px 30px;
+	margin:0;
+}
+#sidebar ul.navigation ul li{
+	padding:0 0 5px 0;
+	
+}
+#sidebar ul.navigation ul li a{
+	font-size:14px;
+	color:#666;
+	font-weight:normal;
+}
+ul.paginatorList{
+	list-style:none;
+	font-weight:bold;
+	font-size:16px;
+	color:#000;
+}
+
+ul.paginatorList li{
+	display:inline;
+	margin:0 5px;
+}
+
+ul.paginatorList li span.disabled{
+	color:#666;
+}
+
+ul.paginatorList li a{
+	text-decoration:none;
+	font-size:14px;
+}
+
+ul.paginatorList li .next{
+	padding-left:20px;
+}
+
+ul.paginatorList li .previous{
+	padding-right:10px;
+}
+
+#footer ul.menu a{
+	color:#fff;
+}
+

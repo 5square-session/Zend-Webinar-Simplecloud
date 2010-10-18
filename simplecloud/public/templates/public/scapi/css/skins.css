@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+/* default skin */
+
+#header, #footer{
+}
+
+body.default{
+	background:#fff;
+        color: #20729F;
+}
+.default #header{
+    background: #20729f;
+}
+
+.default #pageQuote blockquote{
+	color:#fff;
+}
+
+.default #footer{
+    background: #20729f;
+}
+
+.default a {
+	color: #20729f;
+}
+
+.default h1 {
+	color: #20729f;
+}
+
+.default h2,.default h2 a {
+	color: #20729f;
+}
+
+.default h3, .default h3 a {
+	color: #20729f;
+}
+
+.default h4 {
+	color: #20729f;
+}
