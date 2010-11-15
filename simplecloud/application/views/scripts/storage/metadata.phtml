@@ -1,0 +1,22 @@
+<h2>Metadata</h2>
+<table class="compat-table">
+	<thead>
+		<tr>
+			<td class="compat-table-header" style="padding: 10px; text-align: left;">Key</td>
+			<td class="compat-table-header" style="padding: 10px; text-align: left;">Value</td>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach ($this->metadata as $key => $value) : ?>
+	        <tr>
+	            <td style="padding: 10px;"><?php echo $key ?></td>
+	            <td style="padding: 10px;"><?php echo $value ?></td>
+	        </tr>
+        <?php endforeach; ?>
+        <tr>
+        	<td rowspan="3" style="padding: 10px;">
+        		<a href="/storage">Back to list...</a>
+       		</td>
+       	</tr>
+	</tbody>
+</table>

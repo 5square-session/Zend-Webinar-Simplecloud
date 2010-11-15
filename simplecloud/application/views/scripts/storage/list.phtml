@@ -11,7 +11,16 @@
 	        <tr>
 	            <td style="padding: 10px; vertical-align: top;"><?php echo $logoName ?></td>
 	            <td style="padding: 10px;"><img src="data:image/gif;base64,<?php echo $logoBinary ?>" /></td>
-	            <td style="padding: 10px; vertical-align: top;"><a href="/storage/delete/itemname/<?php echo $logoName ?>">Delete</a></td>
+	            <td style="padding: 10px; vertical-align: top;">
+	            	<ul>
+	            		<li>
+	            			<a href="/storage/delete/itemname/<?php echo $logoName ?>">Delete</a>
+	            		</li>
+	            		<li>
+	            			<a href="/storage/metadata/itemname/<?php echo $logoName ?>">Metadata</a>
+	            		</li>
+	            	</ul>
+	           	</td>
 	        </tr>
         <?php endforeach; ?>
         <tr>

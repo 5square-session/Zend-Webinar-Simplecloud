@@ -3,20 +3,13 @@
 class StorageController extends Zend_Controller_Action
 {
     /**
-     * @var Zend_Cloud_StorageService_Adapter_S3
+     * @var Zend_Cloud_StorageService_Adapter
      */
     private $adapter = null;
 
     public function init()
     {
-        $credentials = array(
-            'http_adapter' => "Zend_Http_Client_Adapter_Socket",
-            'storage_adapter' => "Zend_Cloud_StorageService_Adapter_S3",
-            'bucket_name' => "zend-webinar-de-bucket",
-            'aws_accesskey' => getenv('AWS_ACCESSKEY'),
-            'aws_secretkey' => getenv('AWS_SECRETKEY')
-        );
-        $this->adapter = Zend_Cloud_StorageService_Factory::getAdapter($credentials);
+        $this->adapter = Zend_Registry::get('cloudAdapter');
     }
 
     public function indexAction()
@@ -50,6 +43,12 @@ class StorageController extends Zend_Controller_Action
         $this->adapter->deleteItem($itemName);
         
         $this->_redirect('/storage');
+    }
+    
+    public function metadataAction() {
+        $itemName = $this->_getParam('itemname');
+        
+        $this->view->metadata = $this->adapter->fetchMetadata($itemName);
     }
 
 }
